@@ -1,0 +1,54 @@
+// Specific CSS for your home-page
+.div-cont_main {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    text-shadow: 2px 2px 4px grey;
+    font-size:10.5em;
+  }
+  }
+
+  
+  
+  .div-cont_in {
+    // overflow:auto;
+    height: 80%;
+    width: 50%;
+    overflow: auto;
+    background-color:rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 0%, white 100%), asset-url('cocktail_bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+    // &:before {
+    //   content: '';
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
+    // background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+    // opacity: .6; 
+    // }
+  }
